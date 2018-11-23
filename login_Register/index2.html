@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Medical-bot</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="ico" href="img/angeles.ico">
+	<link rel="stylesheet" href="css/css2.css">
+</head>
+<body>
+	<div class="contenedor-formulario">
+		<ul class="contenedor-tabs">
+			<li class="tab active"><a href="#iniciar-sesion">Iniciar sesion</a></li>
+			<li class="tab"><a href="#registrarse">Registrarse</a></li>
+		</ul>
+	
+		<div class="contenido-tab">
+			<div id="iniciar-sesion">
+					<h1>Iniciar Sesión</h1>
+					<form action="#" method="post">
+						<div class="contenedor-input">
+							<label>
+								Email <span class="req">*</span>
+							</label>
+							<input type="email" required id="email_login">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Contraseña <span class="req">*</span>
+							</label>
+							<input type="password" required id="contraseña_login">
+						</div>
+						<input type="submit" class="button button-black" value="Iniciar Sesión">
+					</form>
+			</div>
+			<div id="registrarse">
+				<h1>Registrarse</h1>
+				<form action="" method="post">
+					<div class="fila-arriba">
+						<div class="contenedor-input">
+							<label>
+								Nombre <span class="req">*</span>
+							</label>
+							<input type="text" required id="nombre_registro">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Apellido <span class="req">*</span>
+							</label>
+							<input type="text" required id="apellido_registro">
+						</div>
+					</div>
+					<div class="contenedor-input">
+							<label>
+								Sexo F/M <span class="req">*</span>
+							</label>
+							<input type="text" required id="sexo_registro">
+						</div>
+					<div class="contenedor-input">
+							<label>
+								Peso (Kg) <span class="req">*</span>
+							</label>
+							<input type="number" required id="peso_registro">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Altura (Metro) <span class="req">*</span>
+							</label>
+							<input type="number" required id="edad_registro">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Edad <span class="req">*</span>
+							</label>
+							<input type="number" required id="usuario_registro">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Email <span class="req">*</span>
+							</label>
+							<input type="email" required id="email_registro">
+						</div>
+						<div class="contenedor-input">
+							<label>
+								Contraseña <span class="req">*</span>
+							</label>
+							<input type="password" required id="contrasena_registro">
+						</div>	
+						<input type="submit" class="button button-block" value="Registrarse">
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/js2.js"></script>
+</body>
+</html>
