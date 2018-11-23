@@ -7,10 +7,21 @@ height: 100%;
 }
 
 .boton{
-    height: 60px;
-    width: 120px;
-    margin: 10px auto;
-    color: blue;
-    position: relative;
-
+	background:#D2E0E0;
+	color: #1A02FD;
+	display: inline-block;
+	font-size: 50px;
+	margin: 20px 300px;
+	padding: 10px 85px;
+	width: 200px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 15px;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0px 3px 0px #706868;
+}
+.boton:hover{
+	box-shadow: 0px 0px 0px;
+	padding: 7px 0px;
 }
